@@ -1,0 +1,17 @@
+[package]
+name = "dd060alpha2"
+version = "0.1.0"
+authors = ["Steven Love <lovestevend@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# [workspace]
+
+[dependencies]
+
+manganis = { git = "https://github.com/DioxusLabs/manganis" }
+dioxus = { git = "https://github.com/DioxusLabs/dioxus" , features = ["desktop", "router"]}
+
+# Debug
+dioxus-logger = "0.5.1"
